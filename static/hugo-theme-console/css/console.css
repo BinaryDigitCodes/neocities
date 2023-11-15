@@ -84,7 +84,6 @@ body {
     color: var(--color-fg);
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-/*    background-color: #fff;*/
     margin-bottom: 75px;
 }
 
@@ -172,9 +171,11 @@ figure {
 }
 
 .footer {
+    background-image: url('../img/sparkles.gif');
     clear: both;
     margin-top: 100px;
-    padding-top: 10px;;
+    padding-top: 10px;
+    padding-bottom: 40px;
     border-top: 1px solid var(--secondary-color);
     color: var(--global-font-color);
 }
