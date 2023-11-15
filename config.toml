@@ -1,0 +1,32 @@
+baseurl = "https://binarydigit.neocities.org"
+title = "BinaryDigit"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "Website"
+  url = "https://binarydigit.cafe"
+
+  [[params.navlinks]]
+  name = "Mastodon"
+  url = "https://mstdn.games/@BinaryDigit"
+
+  # [[params.navlinks]]
+  # name = "about/"
+  # url = "about/"
+
+  # [[params.navlinks]]
+  # name = "posts/"
+  # url = "posts/"
+  
+  # [[params.navlinks]]
+  # name = "photos/"
+  # url = "photos/"
